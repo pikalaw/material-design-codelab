@@ -1,4 +1,4 @@
-# material_design_codelab
+# Material Design Codelab For AngularDart
 
 [AngularDart](https://webdev.dartlang.org/angular)'s version of the
 [Material Design Codelab](https://material.io/collections/developer-tutorials/#web)
