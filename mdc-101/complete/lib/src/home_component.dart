@@ -6,7 +6,6 @@ import 'app_config.dart';
   selector: 'home',
   styleUrls: ['home_component.css'],
   templateUrl: 'home_component.html',
-  providers: [ClassProvider(AppConfig)],
 )
 class HomeComponent {
   final AppConfig _appConfig;

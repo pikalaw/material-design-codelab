@@ -1,12 +1,11 @@
 import 'package:angular/angular.dart';
 
-import 'app_config.dart';
+import '../app_config.dart';
 
 @Component(
   selector: 'home',
   styleUrls: ['home_component.css'],
   templateUrl: 'home_component.html',
-  providers: [ClassProvider(AppConfig)],
 )
 class HomeComponent {
   final AppConfig _appConfig;

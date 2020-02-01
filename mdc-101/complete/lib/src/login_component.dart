@@ -16,6 +16,7 @@ class LoginComponent {
   LoginComponent(this._router);
 
   void onSubmit() {
+    // Client-side authentication! Ain't that secure?! ;)
     _router.navigate(RoutePaths.home.toUrl());
   }
 }
