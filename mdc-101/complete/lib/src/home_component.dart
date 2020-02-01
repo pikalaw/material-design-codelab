@@ -1,6 +1,6 @@
 import 'package:angular/angular.dart';
 
-import 'app_config.dart';
+import '../app_config.dart';
 
 @Component(
   selector: 'home',
