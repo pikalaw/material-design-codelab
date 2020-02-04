@@ -18,9 +18,7 @@ class LoginComponent {
 
   LoginComponent(this._router);
 
-  void onSubmit() {
-    _router.navigate(RoutePaths.home.toUrl());
-  }
+  void submit() => _router.navigate(RoutePaths.home.toUrl());
 
   String checkPasswordValid(String password) =>
     password.length < 8 ? 'Length should be at least 8' : null;

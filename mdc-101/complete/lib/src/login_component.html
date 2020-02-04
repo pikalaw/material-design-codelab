@@ -21,7 +21,7 @@
     <h1>SHRINE</h1>
   </section>
 
-  <form (ngSubmit)="onSubmit()">
+  <form>
     <material-input class="username" type="text" label="Username"
         id="username-input" floatingLabel required></material-input>
     <material-input class="password" type="password" label="Password"
@@ -31,7 +31,7 @@
       <material-button class="button cancel-button" raised>
         Cancel
       </material-button>
-      <material-button class="button next-button" raised>
+      <material-button class="button next-button" (trigger)="submit()" raised>
         Next
       </material-button>
     </div>

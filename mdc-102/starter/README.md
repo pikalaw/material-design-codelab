@@ -1,7 +1,7 @@
-## Web 101: Material basics
+## Web 102: Material basics
 
 [AngularDart](https://webdev.dartlang.org/angular)'s version of the
-[original Material Design Codelab mdc-101](https://codelabs.developers.google.com/codelabs/mdc-101-web).
+[original Material Design Codelab mdc-102](https://codelabs.developers.google.com/codelabs/mdc-102-web).
 
 To prepare the dependencies for the build, run this:
 
