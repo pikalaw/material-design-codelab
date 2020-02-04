@@ -1,3 +1,7 @@
+@import 'package:angular_components/material_button/mixins';
+
+$login-width: 300px;
+
 .header {
     text-align: center;
   }
@@ -7,4 +11,25 @@
   height: 150px;
   padding-top: 80px;
   fill: currentColor;
+}
+
+.username, .password {
+  display: block;
+  width: $login-width;
+  margin: 20px auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: $login-width;
+  margin: auto;
+}
+
+@include button-color('.cancel-button', purple);
+@include button-background-color('.next-button', purple);
+@include button-color('.next-button', white);
+
+.button {
+  margin: 3px;
 }

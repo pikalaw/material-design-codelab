@@ -22,5 +22,18 @@
   </section>
 
   <form (ngSubmit)="onSubmit()">
+    <material-input class="username" type="text" label="Username"
+        id="username-input" floatingLabel required></material-input>
+    <material-input class="password" type="password" label="Password"
+        id="password-input" [checkValid]="checkPasswordValid"
+        floatingLabel required></material-input>
+    <div class="button-container">
+      <material-button class="button cancel-button" raised>
+        Cancel
+      </material-button>
+      <material-button class="button next-button" raised>
+        Next
+      </material-button>
+    </div>
   </form>
 </article>
