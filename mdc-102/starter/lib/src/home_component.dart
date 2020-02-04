@@ -4,7 +4,10 @@ import '../app_config.dart';
 
 @Component(
   selector: 'home',
-  styleUrls: ['home_component.css'],
+  styleUrls: [
+    'package:angular_components/app_layout/layout.scss.css',
+    'home_component.css',
+  ],
   templateUrl: 'home_component.html',
 )
 class HomeComponent {
