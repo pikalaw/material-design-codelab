@@ -1,7 +1,7 @@
-## Web 102: Material Structure and Layout
+## Web 103: Material Theming with Color, Shape, Elevation and Type
 
 [AngularDart](https://webdev.dartlang.org/angular)'s version of the
-[original Material Design Codelab mdc-102](https://codelabs.developers.google.com/codelabs/mdc-102-web).
+[original Material Design Codelab mdc-103](https://codelabs.developers.google.com/codelabs/mdc-103-web).
 
 To prepare the dependencies for the build, run this:
 

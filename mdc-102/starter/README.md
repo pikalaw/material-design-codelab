@@ -1,4 +1,4 @@
-## Web 102: Material basics
+## Web 102: Material Structure and Layout
 
 [AngularDart](https://webdev.dartlang.org/angular)'s version of the
 [original Material Design Codelab mdc-102](https://codelabs.developers.google.com/codelabs/mdc-102-web).
