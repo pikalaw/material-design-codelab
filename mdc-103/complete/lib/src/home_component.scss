@@ -20,5 +20,6 @@
 }
 
 .product-list {
-  @include mdc_image_list.standard-columns(4);
+  @include mdc_image_list.masonry-columns(4);
+  padding: 80px 100px 0;
 }

@@ -38,11 +38,11 @@
 		</div>
   </material-drawer>
   <material-content>
-    <ul class="product-list" mdcImageList>
-      <li *ngFor="let i of productCounts" mdcImageList>
-        <img src="assets/weave-keyring.jpg" mdcImageList/>
+    <ul class="product-list" mdcImageList masonry>
+      <li *ngFor="let product of products" mdcImageList>
+        <img src="assets/{{product['image']}}" mdcImageList/>
         <div mdcImageList supporting>
-          <label mdcImageList>Weave keyring</label> 
+          <label mdcImageList>{{product['name']}}</label> 
         </div>
       </li>
     </ul>
